@@ -1,0 +1,84 @@
+-> col = 0
+decoded word = 235.0, channel = 0
+decoded word = 228.0, channel = 1
+decoded word = 149.0, channel = 2
+decoded word = 27.0, channel = 3
+decoded word = 110.0, channel = 5
+decoded word = 255.0, channel = 6
+decoded word = 251.0, channel = 8
+decoded word = 224.0, channel = 9
+decoded word = 173.0, channel = 11
+-----
+-> col = 1
+decoded word = 152.0, channel = 0
+decoded word = 140.0, channel = 1
+decoded word = 202.0, channel = 2
+decoded word = 140.0, channel = 5
+decoded word = 15.0, channel = 6
+decoded word = 233.0, channel = 8
+decoded word = 221.0, channel = 9
+decoded word = 68.0, channel = 11
+-----
+-> col = 2
+decoded word = 153.0, channel = 0
+decoded word = 150.0, channel = 1
+decoded word = 229.0, channel = 2
+decoded word = 20.0, channel = 3
+decoded word = 70.0, channel = 5
+decoded word = 255.0, channel = 8
+decoded word = 160.0, channel = 9
+decoded word = 94.0, channel = 11
+-----
+-> col = 3
+decoded word = 157.0, channel = 0
+decoded word = 160.0, channel = 1
+decoded word = 241.0, channel = 2
+decoded word = 55.0, channel = 3
+decoded word = 52.0, channel = 5
+decoded word = 255.0, channel = 8
+decoded word = 155.0, channel = 9
+decoded word = 120.0, channel = 11
+-----
+-> col = 4
+decoded word = 161.0, channel = 0
+decoded word = 158.0, channel = 1
+decoded word = 234.0, channel = 2
+decoded word = 59.0, channel = 3
+decoded word = 61.0, channel = 5
+decoded word = 255.0, channel = 8
+decoded word = 164.0, channel = 9
+decoded word = 114.0, channel = 11
+-----
+-> col = 5
+decoded word = 159.0, channel = 0
+decoded word = 143.0, channel = 1
+decoded word = 228.0, channel = 2
+decoded word = 71.0, channel = 3
+decoded word = 35.0, channel = 5
+decoded word = 255.0, channel = 8
+decoded word = 153.0, channel = 9
+decoded word = 74.0, channel = 11
+decoded word = 1.0, channel = 12
+-----
+-> col = 6
+decoded word = 108.0, channel = 0
+decoded word = 108.0, channel = 1
+decoded word = 212.0, channel = 2
+decoded word = 83.0, channel = 3
+decoded word = 40.0, channel = 5
+decoded word = 255.0, channel = 8
+decoded word = 141.0, channel = 9
+decoded word = 83.0, channel = 11
+decoded word = 10.0, channel = 12
+-----
+-> col = 7
+decoded word = 201.0, channel = 0
+decoded word = 255.0, channel = 1
+decoded word = 147.0, channel = 2
+decoded word = 33.0, channel = 5
+decoded word = 47.0, channel = 6
+decoded word = 255.0, channel = 8
+decoded word = 191.0, channel = 9
+decoded word = 90.0, channel = 11
+decoded word = 9.0, channel = 13
+-----
