@@ -1,0 +1,607 @@
+/home/nihahn/projects/generate_sim_nik/activation_memory.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/activation_memory.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module activation_memory
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	activation_memory
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/computation_control_interface.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/computation_control_interface.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface computation_control_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pe_row.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pe_row.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package pe_row_sv_unit
+-- Importing package NVP_v1_constants
+-- Compiling module pe_row
+
+Top level modules:
+	pe_row
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/register_file_interface.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/register_file_interface.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface register_file_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/sparse_conv_data_setup.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/sparse_conv_data_setup.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module sparse_conv_data_setup
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	sparse_conv_data_setup
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pe.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pe.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pe
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/pe.sv(27): (vlog-13314) Defaulting port 'i_partial_result' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	pe
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_package.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_package.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package NVP_v1_package
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/bram_sdp_byte_wide_write.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/bram_sdp_byte_wide_write.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module bram_sdp_byte_write
+
+Top level modules:
+	bram_sdp_byte_write
+
+} {} {}} {/home/nihahn/projects/generate_sim_nik/post_processing copy.sv} {2 {vlog -work work -vopt -sv -stats=none {/home/nihahn/projects/generate_sim_nik/post_processing copy.sv}
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module post_processing
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/post_processing copy.sv(47): (vlog-13314) Defaulting port 'i_output_activations' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	post_processing
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axis_fifo_v4.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axis_fifo_v4.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axis_fifo_v4
+
+Top level modules:
+	axis_fifo_v4
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axi_register_file_fsm.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axi_register_file_fsm.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axi_register_file_fsm
+
+Top level modules:
+	axi_register_file_fsm
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pe_backup.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pe_backup.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pe
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_backup.sv(27): (vlog-13314) Defaulting port 'i_partial_result' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	pe
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_fsm.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_fsm.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module compressed_stream_decoder_fsm
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	compressed_stream_decoder_fsm
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/single_port_buffer_byte_en.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/single_port_buffer_byte_en.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module single_port_buffer
+
+Top level modules:
+	single_port_buffer
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/commit_stage.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/commit_stage.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module commit_stage
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	commit_stage
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/output_stage.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/output_stage.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module output_stage
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/output_stage.sv(24): (vlog-13314) Defaulting port 'i_input_array' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	output_stage
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/activation_buffer_write_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/activation_buffer_write_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module activation_buffer_write_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	activation_buffer_write_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/banked_line_buffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/banked_line_buffer.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module banked_line_buffer
+
+Top level modules:
+	banked_line_buffer
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/stream_reader_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/stream_reader_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module stream_reader_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	stream_reader_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/activation_buffer_read_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/activation_buffer_read_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module activation_buffer_read_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	activation_buffer_read_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/delay_unit.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/delay_unit.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module delay_unit
+
+Top level modules:
+	delay_unit
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axi_memory_fsm
+
+Top level modules:
+	axi_memory_fsm
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/local_register_file_latching.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/local_register_file_latching.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module local_reg_file_latching
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	local_reg_file_latching
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/stream_writer_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/stream_writer_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module stream_writer_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	stream_writer_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/sparse_computation_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/sparse_computation_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module sparse_conv_computation_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	sparse_conv_computation_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_systemverilog.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_systemverilog.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package NVP_v1_top_wrapper_systemverilog_sv_unit
+-- Importing package NVP_v1_constants
+-- Compiling module NVP_v1_top_wrapper_systemverilog
+
+Top level modules:
+	NVP_v1_top_wrapper_systemverilog
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+** Warning: /home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv(324): (vlog-2643) Unterminated string literal continues onto next line.
+-- Compiling package NVP_v1_top_tb_sv_unit
+-- Importing package test_package
+-- Importing package NVP_v1_constants
+-- Importing package test_NN_package
+-- Compiling module NVP_v1_top_tb
+
+Top level modules:
+	NVP_v1_top_tb
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/control_memory.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/control_memory.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module control_memory
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	control_memory
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/test_package.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/test_package.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package test_package
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/test_package.sv(747): (vlog-2643) Unterminated string literal continues onto next line.
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module weight_buffer_write_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	weight_buffer_write_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pe_array.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pe_array.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pe_array
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array.sv(22): (vlog-13314) Defaulting port 'i_activation_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array.sv(23): (vlog-13314) Defaulting port 'i_weight_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array.sv(29): (vlog-13314) Defaulting port 'i_partial_result' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	pe_array
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/data_interfaces.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/data_interfaces.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface streamed_data_if
+-- Compiling interface decoded_data_if
+-- Compiling interface compute_core_data_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axis_fifo_v2.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axis_fifo_v2.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axis_fifo_v2
+
+Top level modules:
+	axis_fifo_v2
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pre_compute_scheduler.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pre_compute_scheduler.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pre_compute_scheduler
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	pre_compute_scheduler
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/post_processing.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/post_processing.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module post_processing
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/post_processing.sv(47): (vlog-13314) Defaulting port 'i_output_activations' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	post_processing
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/control_and_stream_decoder_interface.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/control_and_stream_decoder_interface.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface control_and_stream_decoder_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/s_axis_lite_bus.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/s_axis_lite_bus.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_constants.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_constants.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package NVP_v1_constants
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pe_array_shared_dsp.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pe_array_shared_dsp.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pe_array
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array_shared_dsp.sv(21): (vlog-13314) Defaulting port 'i_activation_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array_shared_dsp.sv(22): (vlog-13314) Defaulting port 'i_weight_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array_shared_dsp.sv(28): (vlog-13314) Defaulting port 'i_partial_result' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	pe_array
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/post_processing_compare.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/post_processing_compare.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module post_processing
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/post_processing_compare.sv(47): (vlog-13314) Defaulting port 'i_output_activations' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	post_processing
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/control_unit.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/control_unit.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module control_unit
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	control_unit
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/buffer_unit_and_weight_memory_interface.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/buffer_unit_and_weight_memory_interface.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface axis_to_weight_memory_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/execution_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/execution_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module execution_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	execution_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/weight_memory_compute_address_control_if.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/weight_memory_compute_address_control_if.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface weight_memory_compute_address_control_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pe_array
+-- Importing package NVP_v1_constants
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv(22): (vlog-13314) Defaulting port 'i_activation_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv(23): (vlog-13314) Defaulting port 'i_weight_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv(29): (vlog-13314) Defaulting port 'i_partial_result' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	pe_array
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/weight_memory.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/weight_memory.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module weight_memory
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	weight_memory
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compression_router.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compression_router.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module sm_compression_router
+
+Top level modules:
+	sm_compression_router
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/s_axi_lite_bus.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/s_axi_lite_bus.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface s_axi_lite_bus
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/activation_line_buffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/activation_line_buffer.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module activation_line_buffer
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	activation_line_buffer
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module compressed_stream_decoder
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	compressed_stream_decoder
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/pw_conv_data_setup.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/pw_conv_data_setup.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module pw_conv_data_setup
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	pw_conv_data_setup
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/single_port_buffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/single_port_buffer.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module single_port_buffer
+
+Top level modules:
+	single_port_buffer
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/on_chip_memory.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/on_chip_memory.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module on_chip_memory
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	on_chip_memory
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_verilog.v {1 {vlog -work work -vopt -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_verilog.v
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module NVP_v1_top_wrapper_verilog
+
+Top level modules:
+	NVP_v1_top_wrapper_verilog
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axis_fifo_v3.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axis_fifo_v3.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axis_fifo_v3
+
+Top level modules:
+	axis_fifo_v3
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module weight_row_buffer
+** Warning: /home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv(23): (vlog-13314) Defaulting port 'i_weight_memory_compute_address_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	weight_row_buffer
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/dense_computation_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/dense_computation_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module dense_conv_computation_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	dense_conv_computation_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/dual_port_buffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/dual_port_buffer.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module dual_port_buffer
+
+Top level modules:
+	dual_port_buffer
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axis_mem.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axis_mem.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axis_memory
+
+Top level modules:
+	axis_memory
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/activation_buffer_control_interface.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/activation_buffer_control_interface.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface activation_buffer_control_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_top.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_top.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package NVP_v1_top_sv_unit
+-- Importing package NVP_v1_constants
+-- Compiling module NVP_v1_top
+
+Top level modules:
+	NVP_v1_top
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compute_unit.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compute_unit.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package compute_unit_sv_unit
+-- Importing package NVP_v1_constants
+-- Compiling module compute_unit
+
+Top level modules:
+	compute_unit
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/simple_dual_port_buffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/simple_dual_port_buffer.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module bram_sdp
+
+Top level modules:
+	bram_sdp
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/NVP_v1_interfaces.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/NVP_v1_interfaces.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package NVP_v1_interfaces_sv_unit
+-- Importing package NVP_v1_constants
+-- Compiling interface decoded_word_if
+-- Compiling interface npp_fifo_ff_if
+-- Compiling interface pe_group_weight_memory_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/s_axi_bus.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/s_axi_bus.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface s_axi_bus
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compiled_NN/test_NN_package.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compiled_NN/test_NN_package.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package test_NN_package
+-- Importing package NVP_v1_constants
+-- Importing package test_package
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/routing_tree.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/routing_tree.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package routing_tree_sv_unit
+-- Importing package NVP_v1_constants
+-- Compiling module sequential_routing_switch
+-- Compiling module routing_tree
+
+Top level modules:
+	routing_tree
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/weight_buffer_control_interface.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/weight_buffer_control_interface.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling interface weight_buffer_control_if
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/computation_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/computation_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module computation_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	computation_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv {2 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module sm_compression_routing_mesh
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(23): (vlog-13314) Defaulting port 'i_input_array' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(92): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(92): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(94): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(97): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(101): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(101): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(103): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(106): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(115): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(117): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(122): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv(125): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	sm_compression_routing_mesh
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_wrapper.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_wrapper.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module compressed_stream_decoder_wrapper
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	compressed_stream_decoder_wrapper
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/test_dense_layer_package.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/test_dense_layer_package.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling package test_dense_layer_package
+-- Importing package NVP_v1_constants
+-- Importing package test_package
+
+Top level modules:
+	--none--
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/external_axi_write_control.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/external_axi_write_control.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module external_axi_write_control
+-- Importing package NVP_v1_constants
+
+Top level modules:
+	external_axi_write_control
+
+} {} {}} /home/nihahn/projects/generate_sim_nik/axis_fifo_v1.sv {1 {vlog -work work -vopt -sv -stats=none /home/nihahn/projects/generate_sim_nik/axis_fifo_v1.sv
+QuestaSim-64 vlog 2021.3_2 Compiler 2021.09 Sep 10 2021
+-- Compiling module axis_fifo_v1
+
+Top level modules:
+	axis_fifo_v1
+
+} {} {}}

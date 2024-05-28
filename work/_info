@@ -1,0 +1,2017 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2021.3_2 2021.09, Sep 10 2021
+R0
+R0
+R0
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/nihahn/projects/generate_sim_nik
+T_opt
+!s11d test_package /home/nihahn/projects/generate_sim_nik/work 2 s_axi_bus 1 /home/nihahn/projects/generate_sim_nik/work s_axi_lite_bus 1 /home/nihahn/projects/generate_sim_nik/work 
+!s110 1716897966
+VMekPgK_NWHFdY_6lZDD6k2
+04 13 4 work NVP_v1_top_tb fast 0
+=1-4a52bed6a706-6655c8ae-77d35-5fbb0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.3_2;73
+Yactivation_buffer_control_if
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1716897932
+!i10b 1
+!s100 nb79@BNaa5>TAZM>f7c3:3
+Ihf4RSNk8c3AZMK>D7SCEP3
+S1
+R1
+Z5 w1716892780
+8/home/nihahn/projects/generate_sim_nik/activation_buffer_control_interface.sv
+F/home/nihahn/projects/generate_sim_nik/activation_buffer_control_interface.sv
+!i122 56
+Z6 L0 11 0
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.3_2;73
+r1
+!s85 0
+31
+Z9 !s108 1716897932.000000
+!s107 /home/nihahn/projects/generate_sim_nik/activation_buffer_control_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/activation_buffer_control_interface.sv|
+!i113 0
+Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vactivation_buffer_read_control
+R3
+Z11 DXx4 work 16 NVP_v1_constants 0 22 6`mHB3GO:=D4`m;43i]_L2
+R4
+!i10b 1
+!s100 O^>cg64C3OKIeIb7O2e3J3
+I66Kb3?GVOO]NYahhe>]Yk3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/activation_buffer_read_control.sv
+F/home/nihahn/projects/generate_sim_nik/activation_buffer_read_control.sv
+!i122 57
+Z12 L0 11 244
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/activation_buffer_read_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/activation_buffer_read_control.sv|
+!i113 0
+R10
+R2
+vactivation_buffer_write_control
+R3
+R11
+R4
+!i10b 1
+!s100 j2CbK4;0F54Ri<j<2;S5e2
+I<Q7I1n9EieeGD1W3hK15A1
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/activation_buffer_write_control.sv
+F/home/nihahn/projects/generate_sim_nik/activation_buffer_write_control.sv
+!i122 58
+R12
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/activation_buffer_write_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/activation_buffer_write_control.sv|
+!i113 0
+R10
+R2
+vactivation_line_buffer
+R3
+R11
+R4
+!i10b 1
+!s100 gd5fSD15ZiEIa9Me>ZoON2
+I[E^``U>G=TAd1D0B_5l<k1
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/activation_line_buffer.sv
+F/home/nihahn/projects/generate_sim_nik/activation_line_buffer.sv
+!i122 59
+L0 12 90
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/activation_line_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/activation_line_buffer.sv|
+!i113 0
+R10
+R2
+vactivation_memory
+R3
+R11
+R4
+!i10b 1
+!s100 KY1A;CE9[k70g72=VM9mz0
+I4?VRWbQ3Rk96??P8YUnLT3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/activation_memory.sv
+F/home/nihahn/projects/generate_sim_nik/activation_memory.sv
+!i122 60
+L0 11 120
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/activation_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/activation_memory.sv|
+!i113 0
+R10
+R2
+vaxi_memory_fsm
+R3
+R4
+!i10b 1
+!s100 [mY@Uch3PfLW_ND03<4V@1
+IBLk1;Mg3OIGTeaYJEzgcb3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv
+F/home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv
+!i122 61
+Z13 L0 11 311
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv|
+!i113 0
+R10
+R2
+vaxi_register_file_fsm
+R3
+R4
+!i10b 1
+!s100 ]WjmfE8`cN1UBcUdPUDEf0
+I<>ZF;7Kz]]HM1dNl0JN6i2
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axi_register_file_fsm.sv
+F/home/nihahn/projects/generate_sim_nik/axi_register_file_fsm.sv
+!i122 62
+L0 12 149
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/axi_register_file_fsm.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axi_register_file_fsm.sv|
+!i113 0
+R10
+R2
+vaxis_fifo_v1
+R3
+R4
+!i10b 1
+!s100 [SN;jF=]gG5]TgV^0^0Me0
+IgJZ3938MVgbE@dh8Rd;Cb2
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axis_fifo_v1.sv
+F/home/nihahn/projects/generate_sim_nik/axis_fifo_v1.sv
+!i122 63
+L0 11 98
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/axis_fifo_v1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axis_fifo_v1.sv|
+!i113 0
+R10
+R2
+vaxis_fifo_v2
+R3
+R4
+!i10b 1
+!s100 k41`PH4UMin3BT6<^Onjz2
+Ih;B<9n8g`i4?WUm>cPI=H1
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axis_fifo_v2.sv
+F/home/nihahn/projects/generate_sim_nik/axis_fifo_v2.sv
+!i122 64
+L0 126 125
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/axis_fifo_v2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axis_fifo_v2.sv|
+!i113 0
+R10
+R2
+vaxis_fifo_v3
+R3
+Z14 !s110 1716897933
+!i10b 1
+!s100 oUIzfS]V0EY6cdWE>f_jm1
+IOfoj:nIWSzNI=fd?LCaT@1
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axis_fifo_v3.sv
+F/home/nihahn/projects/generate_sim_nik/axis_fifo_v3.sv
+!i122 65
+L0 14 100
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/nihahn/projects/generate_sim_nik/axis_fifo_v3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axis_fifo_v3.sv|
+!i113 0
+R10
+R2
+vaxis_fifo_v4
+R3
+R14
+!i10b 1
+!s100 bT0d`h49l=>3h>dn@2EEN3
+IbNciD46=giezIPjPO>EGf3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axis_fifo_v4.sv
+F/home/nihahn/projects/generate_sim_nik/axis_fifo_v4.sv
+!i122 66
+L0 11 108
+R7
+R8
+r1
+!s85 0
+31
+Z15 !s108 1716897933.000000
+!s107 /home/nihahn/projects/generate_sim_nik/axis_fifo_v4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axis_fifo_v4.sv|
+!i113 0
+R10
+R2
+vaxis_memory
+R3
+R14
+!i10b 1
+!s100 iO[?ncWi6;IZ^T8KBhA6=1
+IfjdBjhcaBSjSlWXbVRT:@1
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/axis_mem.sv
+F/home/nihahn/projects/generate_sim_nik/axis_mem.sv
+!i122 67
+L0 11 133
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/axis_mem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/axis_mem.sv|
+!i113 0
+R10
+R2
+Yaxis_to_weight_memory_if
+R3
+R14
+!i10b 1
+!s100 jgeLUEDT<dCBWF1Z@LAgc2
+I4fj;O@Pd;TEHoedn2<7hS3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/buffer_unit_and_weight_memory_interface.sv
+F/home/nihahn/projects/generate_sim_nik/buffer_unit_and_weight_memory_interface.sv
+!i122 70
+R6
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/buffer_unit_and_weight_memory_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/buffer_unit_and_weight_memory_interface.sv|
+!i113 0
+R10
+R2
+vbanked_line_buffer
+R3
+R14
+!i10b 1
+!s100 7Qk6[?la=Dzh8BmmJ:iTZ3
+IIfUHJS<5]65E@<5L4maM91
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/banked_line_buffer.sv
+F/home/nihahn/projects/generate_sim_nik/banked_line_buffer.sv
+!i122 68
+L0 26 46
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/banked_line_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/banked_line_buffer.sv|
+!i113 0
+R10
+R2
+vbram_sdp
+R3
+Z16 !s110 1716897939
+!i10b 1
+!s100 4eP@i40A;b4HfcTclIQd33
+I_Ga2>VECU]m]ZEKQU@K>:0
+S1
+R1
+Z17 w1716892785
+8/home/nihahn/projects/generate_sim_nik/simple_dual_port_buffer.sv
+F/home/nihahn/projects/generate_sim_nik/simple_dual_port_buffer.sv
+!i122 127
+L0 21 35
+R7
+R8
+r1
+!s85 0
+31
+Z18 !s108 1716897939.000000
+!s107 /home/nihahn/projects/generate_sim_nik/simple_dual_port_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/simple_dual_port_buffer.sv|
+!i113 0
+R10
+R2
+vbram_sdp_byte_write
+R3
+R14
+!i10b 1
+!s100 7QNT^8B;CFGPOCl8c61_i2
+ISKG1@A09@cC1:`R8[0kZP3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/bram_sdp_byte_wide_write.sv
+F/home/nihahn/projects/generate_sim_nik/bram_sdp_byte_wide_write.sv
+!i122 69
+L0 12 47
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/bram_sdp_byte_wide_write.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/bram_sdp_byte_wide_write.sv|
+!i113 0
+R10
+R2
+vcommit_stage
+R3
+R11
+R14
+!i10b 1
+!s100 X]b_z8CzLHT]IQhI:0fLk3
+I:@;RiXXjO8=fPOW`TRUl[2
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/commit_stage.sv
+F/home/nihahn/projects/generate_sim_nik/commit_stage.sv
+!i122 71
+L0 12 160
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/commit_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/commit_stage.sv|
+!i113 0
+R10
+R2
+vcompressed_stream_decoder
+R3
+R11
+R14
+!i10b 1
+!s100 4PMFH4_Q:AYD@8RS317ab0
+IQYmfQNKb;nVf:b7Xb9BR`3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder.sv
+F/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder.sv
+!i122 72
+L0 11 77
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder.sv|
+!i113 0
+R10
+R2
+vcompressed_stream_decoder_fsm
+R3
+R11
+R14
+!i10b 1
+!s100 _7;CRYO]zE>N60EZ`G]S_2
+IF:Hk9FT6[O4^MEU[>glYS3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_fsm.sv
+F/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_fsm.sv
+!i122 73
+L0 15 560
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_fsm.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_fsm.sv|
+!i113 0
+R10
+R2
+vcompressed_stream_decoder_wrapper
+R3
+R11
+R14
+!i10b 1
+!s100 C8A5cD?>>77=C^RU`3bDC2
+IUblTnkBYk[6l7VTD]T@PG1
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_wrapper.sv
+F/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_wrapper.sv
+!i122 74
+L0 11 100
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compressed_stream_decoder_wrapper.sv|
+!i113 0
+R10
+R2
+vcomputation_control
+R3
+R11
+Z19 !s110 1716897934
+!i10b 1
+!s100 KVJZFId9R^mO_5n4QZ@m;0
+IZVHZIM7AY=cck5WZYQH0:0
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/computation_control.sv
+F/home/nihahn/projects/generate_sim_nik/computation_control.sv
+!i122 77
+L0 12 250
+R7
+R8
+r1
+!s85 0
+31
+Z20 !s108 1716897934.000000
+!s107 /home/nihahn/projects/generate_sim_nik/computation_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/computation_control.sv|
+!i113 0
+R10
+R2
+Ycomputation_control_if
+R3
+R19
+!i10b 1
+!s100 9>QXBDTnVNL3=z0ZCj>XY2
+I69@Nc;`[?G:TnJ5Ob]>SF1
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/computation_control_interface.sv
+F/home/nihahn/projects/generate_sim_nik/computation_control_interface.sv
+!i122 78
+R6
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/computation_control_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/computation_control_interface.sv|
+!i113 0
+R10
+R2
+Ycompute_core_data_if
+R3
+R19
+!i10b 1
+!s100 >6AbIK@Na<2B]5<h_LE7:0
+I?kJloVTJooV:Log9XnhNL2
+S1
+R1
+R17
+Z21 8/home/nihahn/projects/generate_sim_nik/data_interfaces.sv
+Z22 F/home/nihahn/projects/generate_sim_nik/data_interfaces.sv
+!i122 83
+L0 54 0
+R7
+R8
+r1
+!s85 0
+31
+R20
+Z23 !s107 /home/nihahn/projects/generate_sim_nik/data_interfaces.sv|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/data_interfaces.sv|
+!i113 0
+R10
+R2
+vcompute_unit
+R3
+R11
+DXx4 work 20 compute_unit_sv_unit 0 22 Vd:>6X<@<]zN`MN7MVIk00
+R19
+R7
+r1
+!s85 0
+!i10b 1
+!s100 mLndYN4ZdXk0k?9<IXLkU2
+IS4BbLfjV>X4mz07]GgHz^0
+!s105 compute_unit_sv_unit
+S1
+R1
+R17
+Z25 8/home/nihahn/projects/generate_sim_nik/compute_unit.sv
+Z26 F/home/nihahn/projects/generate_sim_nik/compute_unit.sv
+!i122 79
+L0 13 77
+R8
+31
+R20
+Z27 !s107 /home/nihahn/projects/generate_sim_nik/compute_unit.sv|
+Z28 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compute_unit.sv|
+!i113 0
+R10
+R2
+Xcompute_unit_sv_unit
+R3
+R11
+R19
+VVd:>6X<@<]zN`MN7MVIk00
+r1
+!s85 0
+!i10b 1
+!s100 F:4W?eS8iQ>mz1IY16W`:0
+IVd:>6X<@<]zN`MN7MVIk00
+!i103 1
+S1
+R1
+R17
+R25
+R26
+!i122 79
+R6
+R8
+31
+R20
+R27
+R28
+!i113 0
+R10
+R2
+Ycontrol_and_stream_decoder_if
+R3
+R19
+!i10b 1
+!s100 ]C49?e>[0PR?Ci9?zPCGY3
+I5z[FY0TW8Gh1BM<EP>IR81
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/control_and_stream_decoder_interface.sv
+F/home/nihahn/projects/generate_sim_nik/control_and_stream_decoder_interface.sv
+!i122 80
+R6
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/control_and_stream_decoder_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/control_and_stream_decoder_interface.sv|
+!i113 0
+R10
+R2
+vcontrol_memory
+R3
+R11
+R19
+!i10b 1
+!s100 @^oa=M0o99b2MSf`CZdjn0
+I]kK93nI3Tfzc9@DJdRj3[3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/control_memory.sv
+F/home/nihahn/projects/generate_sim_nik/control_memory.sv
+!i122 81
+L0 12 63
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/control_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/control_memory.sv|
+!i113 0
+R10
+R2
+vcontrol_unit
+R3
+R11
+R19
+!i10b 1
+!s100 01MDFeISn@g>R0MA8QdMm1
+I^Q:bAJlRC0EjEB@Ub=XBI2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/control_unit.sv
+F/home/nihahn/projects/generate_sim_nik/control_unit.sv
+!i122 82
+L0 11 199
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/control_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/control_unit.sv|
+!i113 0
+R10
+R2
+Ydecoded_data_if
+R3
+R19
+!i10b 1
+!s100 AlVD4ESO4K8RfjkhmH`S?0
+ILzZk2dU2?GnTiTV:@:nz@2
+S1
+R1
+R17
+R21
+R22
+!i122 83
+L0 31 0
+R7
+R8
+r1
+!s85 0
+31
+R20
+R23
+R24
+!i113 0
+R10
+R2
+Ydecoded_word_if
+R3
+R11
+Z29 DXx4 work 25 NVP_v1_interfaces_sv_unit 0 22 J<32X_m^Pa4DjhgjVkihn2
+Z30 !s110 1716897935
+R7
+r1
+!s85 0
+!i10b 1
+!s100 86Gd>zo[a^`I[4P4dC;:U2
+I^Y=3X0CFbG;l38lRGbhhK3
+Z31 !s105 NVP_v1_interfaces_sv_unit
+S1
+R1
+R5
+Z32 8/home/nihahn/projects/generate_sim_nik/NVP_v1_interfaces.sv
+Z33 F/home/nihahn/projects/generate_sim_nik/NVP_v1_interfaces.sv
+!i122 91
+L0 16 0
+R8
+31
+Z34 !s108 1716897935.000000
+Z35 !s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_interfaces.sv|
+Z36 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_interfaces.sv|
+!i113 0
+R10
+R2
+vdelay_unit
+R3
+R19
+!i10b 1
+!s100 Pk3V^Oh>@]nEJ1=lA7Yg41
+I0RQCX0OI[a4FB_Kki4;7F2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/delay_unit.sv
+F/home/nihahn/projects/generate_sim_nik/delay_unit.sv
+!i122 84
+L0 11 37
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/delay_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/delay_unit.sv|
+!i113 0
+R10
+R2
+vdense_conv_computation_control
+R3
+R11
+R30
+!i10b 1
+!s100 zBCClllXc6=8?lNGReGd;0
+IhfH2XYV3Lc;_ahUBzjS^h2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/dense_computation_control.sv
+F/home/nihahn/projects/generate_sim_nik/dense_computation_control.sv
+!i122 85
+L0 11 221
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/dense_computation_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/dense_computation_control.sv|
+!i113 0
+R10
+R2
+vdual_port_buffer
+R3
+R30
+!i10b 1
+!s100 5P0h3MLA^heC8_gL8SIi_2
+IWgFocZi`8fa<lTSR2BIIC0
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/dual_port_buffer.sv
+F/home/nihahn/projects/generate_sim_nik/dual_port_buffer.sv
+!i122 86
+L0 15 60
+R7
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/dual_port_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/dual_port_buffer.sv|
+!i113 0
+R10
+R2
+vexecution_control
+R3
+R11
+R30
+!i10b 1
+!s100 aIFLNCn:IFgT9;7:<K@c=0
+IY`NLjZB`jnP;LS@l1UM3d3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/execution_control.sv
+F/home/nihahn/projects/generate_sim_nik/execution_control.sv
+!i122 87
+L0 11 139
+R7
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/execution_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/execution_control.sv|
+!i113 0
+R10
+R2
+vexternal_axi_write_control
+R3
+R11
+R30
+!i10b 1
+!s100 aNJ8nz==g3B@Rb7J5ZCPR1
+IPVgdXb6Y8Y2VKO<=9`OmU3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/external_axi_write_control.sv
+F/home/nihahn/projects/generate_sim_nik/external_axi_write_control.sv
+!i122 88
+L0 11 162
+R7
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/external_axi_write_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/external_axi_write_control.sv|
+!i113 0
+R10
+R2
+vlocal_reg_file_latching
+R3
+R11
+R30
+!i10b 1
+!s100 5oiEA6^oh1jYjGRHN7@^J1
+Izze_Jm;O5_le1aYn<_f@i3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/local_register_file_latching.sv
+F/home/nihahn/projects/generate_sim_nik/local_register_file_latching.sv
+!i122 89
+L0 12 156
+R7
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/local_register_file_latching.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/local_register_file_latching.sv|
+!i113 0
+R10
+R2
+Ynpp_fifo_ff_if
+R3
+R11
+R29
+R30
+R7
+r1
+!s85 0
+!i10b 1
+!s100 MJ2ImD@oDkY2U[@5HnE653
+IR:ZKWA_k0`VW3Km1<ege^2
+R31
+S1
+R1
+R5
+R32
+R33
+!i122 91
+L0 32 0
+R8
+31
+R34
+R35
+R36
+!i113 0
+R10
+R2
+XNVP_v1_constants
+R3
+R30
+!i10b 1
+!s100 k0:bdNHDb`7gAKA5Pimgz0
+I6`mHB3GO:=D4`m;43i]_L2
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/NVP_v1_constants.sv
+F/home/nihahn/projects/generate_sim_nik/NVP_v1_constants.sv
+!i122 90
+Z37 L0 12 0
+V6`mHB3GO:=D4`m;43i]_L2
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_constants.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_constants.sv|
+!i113 0
+R10
+R2
+n@n@v@p_v1_constants
+XNVP_v1_interfaces_sv_unit
+R3
+R11
+R30
+VJ<32X_m^Pa4DjhgjVkihn2
+r1
+!s85 0
+!i10b 1
+!s100 lZ7]NRZYVb?YJgDfVDRW41
+IJ<32X_m^Pa4DjhgjVkihn2
+!i103 1
+S1
+R1
+R5
+R32
+R33
+!i122 91
+R37
+R8
+31
+R34
+R35
+R36
+!i113 0
+R10
+R2
+n@n@v@p_v1_interfaces_sv_unit
+XNVP_v1_package
+R3
+R11
+R30
+!i10b 1
+!s100 <c6TmB9EDBmY_gMeIal_Y0
+I^6C;X6cjb3JJ]5`0G2?FI3
+S1
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/NVP_v1_package.sv
+F/home/nihahn/projects/generate_sim_nik/NVP_v1_package.sv
+!i122 92
+L0 13 0
+V^6C;X6cjb3JJ]5`0G2?FI3
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_package.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_package.sv|
+!i113 0
+R10
+R2
+n@n@v@p_v1_package
+vNVP_v1_top
+R3
+R11
+DXx4 work 18 NVP_v1_top_sv_unit 0 22 29f^4Fz][JUIagPQnm^;l0
+R30
+R7
+r1
+!s85 0
+!i10b 1
+!s100 XYj7B:W662;l`3alPmDDh2
+IET8Fdh;Yn8JnnFWVP_Z<O1
+!s105 NVP_v1_top_sv_unit
+S1
+R1
+R5
+Z38 8/home/nihahn/projects/generate_sim_nik/NVP_v1_top.sv
+Z39 F/home/nihahn/projects/generate_sim_nik/NVP_v1_top.sv
+!i122 93
+L0 31 186
+R8
+31
+R34
+Z40 !s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_top.sv|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_top.sv|
+!i113 0
+R10
+R2
+n@n@v@p_v1_top
+XNVP_v1_top_sv_unit
+R3
+R11
+R30
+V29f^4Fz][JUIagPQnm^;l0
+r1
+!s85 0
+!i10b 1
+!s100 GD@zYEAZJC1SDU8FdP_1?2
+I29f^4Fz][JUIagPQnm^;l0
+!i103 1
+S1
+R1
+R5
+R38
+R39
+!i122 93
+L0 29 0
+R8
+31
+R34
+R40
+R41
+!i113 0
+R10
+R2
+n@n@v@p_v1_top_sv_unit
+vNVP_v1_top_tb
+R3
+R11
+Z42 DXx4 work 12 test_package 0 22 joi^CD0WcDg=oSVE:h_li3
+Z43 DXx4 work 15 test_NN_package 0 22 YKLiFhl?oNZideHn0B?A83
+DXx4 work 21 NVP_v1_top_tb_sv_unit 0 22 h675aDfF5h]zgD@J_jlD90
+R16
+R7
+r1
+!s85 0
+!i10b 1
+!s100 VIMhNC:kC5:cGjB8>JY9b2
+I4MGh;b=QFIeXmZ;?iVRiN2
+!s105 NVP_v1_top_tb_sv_unit
+S1
+R1
+R5
+Z44 8/home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv
+Z45 F/home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv
+!i122 128
+L0 17 717
+R8
+31
+R18
+Z46 !s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv|
+Z47 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_top_tb.sv|
+!i113 0
+R10
+R2
+n@n@v@p_v1_top_tb
+XNVP_v1_top_tb_sv_unit
+R3
+R11
+R42
+R43
+R16
+Vh675aDfF5h]zgD@J_jlD90
+r1
+!s85 0
+!i10b 1
+!s100 R@[ISz_5TQ0D8AO[KcG`Q0
+Ih675aDfF5h]zgD@J_jlD90
+!i103 1
+S1
+R1
+R5
+R44
+R45
+!i122 128
+R37
+R8
+31
+R18
+R46
+R47
+!i113 0
+R10
+R2
+n@n@v@p_v1_top_tb_sv_unit
+vNVP_v1_top_wrapper_systemverilog
+R3
+R11
+DXx4 work 40 NVP_v1_top_wrapper_systemverilog_sv_unit 0 22 EdVCW;KTZ9SiBIShjjo3Q0
+Z48 !s110 1716897937
+R7
+r1
+!s85 0
+!i10b 1
+!s100 EhSU2OjHafbZzLY2iVCoA0
+IH9O8HIeYFjdEK_XG`8[:l0
+!s105 NVP_v1_top_wrapper_systemverilog_sv_unit
+S1
+R1
+R5
+Z49 8/home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_systemverilog.sv
+Z50 F/home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_systemverilog.sv
+!i122 108
+L0 13 281
+R8
+31
+Z51 !s108 1716897937.000000
+Z52 !s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_systemverilog.sv|
+Z53 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_systemverilog.sv|
+!i113 0
+R10
+R2
+n@n@v@p_v1_top_wrapper_systemverilog
+XNVP_v1_top_wrapper_systemverilog_sv_unit
+R3
+R11
+R48
+VEdVCW;KTZ9SiBIShjjo3Q0
+r1
+!s85 0
+!i10b 1
+!s100 ;b;aGh9b81O8KbGiZeJ>70
+IEdVCW;KTZ9SiBIShjjo3Q0
+!i103 1
+S1
+R1
+R5
+R49
+R50
+!i122 108
+R6
+R8
+31
+R51
+R52
+R53
+!i113 0
+R10
+R2
+n@n@v@p_v1_top_wrapper_systemverilog_sv_unit
+vNVP_v1_top_wrapper_verilog
+R48
+!i10b 1
+!s100 inFPP>M6Xde6<Mode0Sic3
+I;^57STdi7Koe9B3:1o4jl3
+R1
+R5
+8/home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_verilog.v
+F/home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_verilog.v
+!i122 109
+L0 11 269
+R7
+R8
+r1
+!s85 0
+31
+R51
+!s107 /home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_verilog.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/nihahn/projects/generate_sim_nik/NVP_v1_top_wrapper_verilog.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@n@v@p_v1_top_wrapper_verilog
+von_chip_memory
+R3
+R11
+R48
+!i10b 1
+!s100 `cS7kQR_dVYfiF@BFT7IQ0
+IEWH0N=8Bj1o>AYATBjM`h1
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/on_chip_memory.sv
+F/home/nihahn/projects/generate_sim_nik/on_chip_memory.sv
+!i122 110
+L0 11 135
+R7
+R8
+r1
+!s85 0
+31
+R51
+!s107 /home/nihahn/projects/generate_sim_nik/on_chip_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/on_chip_memory.sv|
+!i113 0
+R10
+R2
+voutput_stage
+R3
+R11
+R48
+!i10b 1
+!s100 T3Fk5ROG?5<TOQ8PAI2hQ3
+I?_0^WdBcG0VQEaQ<DU2XF2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/output_stage.sv
+F/home/nihahn/projects/generate_sim_nik/output_stage.sv
+!i122 111
+L0 11 90
+R7
+R8
+r1
+!s85 0
+31
+R51
+!s107 /home/nihahn/projects/generate_sim_nik/output_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/output_stage.sv|
+!i113 0
+R10
+R2
+vpe
+R3
+R11
+Z54 !s110 1716897938
+!i10b 1
+!s100 65_YaVE5HbSmY4QA6c:ea1
+IC?:?BRZKXeoYP^Ij?L8z_1
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/pe_backup.sv
+F/home/nihahn/projects/generate_sim_nik/pe_backup.sv
+!i122 116
+L0 11 113
+R7
+R8
+r1
+!s85 0
+31
+Z55 !s108 1716897938.000000
+!s107 /home/nihahn/projects/generate_sim_nik/pe_backup.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/pe_backup.sv|
+!i113 0
+R10
+R2
+vpe_array
+R3
+R11
+R54
+!i10b 1
+!s100 ?CJ9>h7V8W9]3VD1NNLR13
+IDFz`3`Xo>Jh<?eFbbT@eB2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv
+F/home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv
+!i122 115
+L0 12 49
+R7
+R8
+r1
+!s85 0
+31
+R51
+!s107 /home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/pe_array_soft_mult.sv|
+!i113 0
+R10
+R2
+Ype_group_weight_memory_if
+R3
+R11
+R29
+R30
+R7
+r1
+!s85 0
+!i10b 1
+!s100 J5GCMe_XYUK34Qm[X[02P3
+IV499N6RVDFl@9NQamd`Cm3
+R31
+S1
+R1
+R5
+R32
+R33
+!i122 91
+L0 46 0
+R8
+31
+R34
+R35
+R36
+!i113 0
+R10
+R2
+vpe_row
+R3
+R11
+DXx4 work 14 pe_row_sv_unit 0 22 mL6EQDl5jWPS7CDG871S>3
+R54
+R7
+r1
+!s85 0
+!i10b 1
+!s100 FEZZ7]KX^KAbHiSnz;9783
+IZ>hW7nj2XLO2g?gd48]X92
+!s105 pe_row_sv_unit
+S1
+R1
+R17
+Z56 8/home/nihahn/projects/generate_sim_nik/pe_row.sv
+Z57 F/home/nihahn/projects/generate_sim_nik/pe_row.sv
+!i122 117
+L0 16 135
+R8
+31
+R55
+Z58 !s107 /home/nihahn/projects/generate_sim_nik/pe_row.sv|
+Z59 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/pe_row.sv|
+!i113 0
+R10
+R2
+Xpe_row_sv_unit
+R3
+R11
+R54
+VmL6EQDl5jWPS7CDG871S>3
+r1
+!s85 0
+!i10b 1
+!s100 Bbo:IIjdU3Ej`14N:1OSa0
+ImL6EQDl5jWPS7CDG871S>3
+!i103 1
+S1
+R1
+R17
+R56
+R57
+!i122 117
+R37
+R8
+31
+R55
+R58
+R59
+!i113 0
+R10
+R2
+vpost_processing
+R3
+R11
+R54
+!i10b 1
+!s100 jlLmomQdbdD0D0DhdIiLS0
+IEh@Z]L>_L^kF8[k@nfdF:3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/post_processing_compare.sv
+F/home/nihahn/projects/generate_sim_nik/post_processing_compare.sv
+!i122 120
+L0 13 1247
+R7
+R8
+r1
+!s85 0
+31
+R55
+!s107 /home/nihahn/projects/generate_sim_nik/post_processing_compare.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/post_processing_compare.sv|
+!i113 0
+R10
+R2
+vpre_compute_scheduler
+R3
+R11
+R54
+!i10b 1
+!s100 JJ`=o;@B1>]>b^_KZ?aG61
+IRL:W6NDmV?SK4?R1573[c0
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/pre_compute_scheduler.sv
+F/home/nihahn/projects/generate_sim_nik/pre_compute_scheduler.sv
+!i122 121
+L0 52 141
+R7
+R8
+r1
+!s85 0
+31
+R55
+!s107 /home/nihahn/projects/generate_sim_nik/pre_compute_scheduler.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/pre_compute_scheduler.sv|
+!i113 0
+R10
+R2
+vpw_conv_data_setup
+R3
+R11
+R54
+!i10b 1
+!s100 C[am3R0^UKAT1Q2zdcZ_T1
+In5MocK]T4hnM3H]]5BDBj2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/pw_conv_data_setup.sv
+F/home/nihahn/projects/generate_sim_nik/pw_conv_data_setup.sv
+!i122 122
+L0 12 77
+R7
+R8
+r1
+!s85 0
+31
+R55
+!s107 /home/nihahn/projects/generate_sim_nik/pw_conv_data_setup.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/pw_conv_data_setup.sv|
+!i113 0
+R10
+R2
+Yregister_file_if
+R3
+R54
+!i10b 1
+!s100 GzTD`JVGmEN@S@WB6E>U_3
+I3T2lAUBRKaOFigb[]6KMK0
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/register_file_interface.sv
+F/home/nihahn/projects/generate_sim_nik/register_file_interface.sv
+!i122 123
+R6
+R7
+R8
+r1
+!s85 0
+31
+R55
+!s107 /home/nihahn/projects/generate_sim_nik/register_file_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/register_file_interface.sv|
+!i113 0
+R10
+R2
+vrouting_tree
+R3
+R11
+Z60 DXx4 work 20 routing_tree_sv_unit 0 22 Nlm?U[?W55kWD5;3LK:7j3
+R16
+R7
+r1
+!s85 0
+!i10b 1
+!s100 9bBjLAeB4o_=D321HehbC1
+ISZ@ambz]NYFXbl94652_E0
+Z61 !s105 routing_tree_sv_unit
+S1
+R1
+R17
+Z62 8/home/nihahn/projects/generate_sim_nik/routing_tree.sv
+Z63 F/home/nihahn/projects/generate_sim_nik/routing_tree.sv
+!i122 124
+L0 77 46
+R8
+31
+R55
+Z64 !s107 /home/nihahn/projects/generate_sim_nik/routing_tree.sv|
+Z65 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/routing_tree.sv|
+!i113 0
+R10
+R2
+Xrouting_tree_sv_unit
+R3
+R11
+R16
+VNlm?U[?W55kWD5;3LK:7j3
+r1
+!s85 0
+!i10b 1
+!s100 ^9b_I1GP_[YMcCVd<<W`>2
+INlm?U[?W55kWD5;3LK:7j3
+!i103 1
+S1
+R1
+R17
+R62
+R63
+!i122 124
+L0 14 0
+R8
+31
+R55
+R64
+R65
+!i113 0
+R10
+R2
+Ys_axi_bus
+R3
+R16
+!i10b 1
+!s100 @Mgf9f8;6>T4T3`iPbTL22
+IZilEjZQKVj6YZI?@olX:?0
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/s_axi_bus.sv
+F/home/nihahn/projects/generate_sim_nik/s_axi_bus.sv
+!i122 125
+Z66 L0 10 0
+R7
+R8
+r1
+!s85 0
+31
+R18
+!s107 /home/nihahn/projects/generate_sim_nik/s_axi_bus.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/s_axi_bus.sv|
+!i113 0
+R10
+R2
+Ys_axi_lite_bus
+R3
+R11
+R16
+!i10b 1
+!s100 :_mL9ohSO3h0K6WEQi9HR3
+IkWS=?:GUJQJ4FT:oK2ho>2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/s_axi_lite_bus.sv
+F/home/nihahn/projects/generate_sim_nik/s_axi_lite_bus.sv
+!i122 126
+R66
+R7
+R8
+r1
+!s85 0
+31
+R18
+!s107 /home/nihahn/projects/generate_sim_nik/s_axi_lite_bus.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/s_axi_lite_bus.sv|
+!i113 0
+R10
+R2
+vsequential_routing_switch
+R3
+R11
+R60
+R16
+R7
+r1
+!s85 0
+!i10b 1
+!s100 MU?]c@a>9cd9Vh_HM6ND>3
+IMITnAFjZI4iz_iX0<3>]f0
+R61
+S1
+R1
+R17
+R62
+R63
+!i122 124
+L0 30 45
+R8
+31
+R55
+R64
+R65
+!i113 0
+R10
+R2
+vsingle_port_buffer
+R3
+R30
+!i10b 1
+!s100 FYJb380fXiDM;]<_>>ak^0
+II3E_CA3gI<0^]UknJhdC30
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/single_port_buffer_byte_en.sv
+F/home/nihahn/projects/generate_sim_nik/single_port_buffer_byte_en.sv
+!i122 95
+L0 14 42
+R7
+R8
+r1
+!s85 0
+31
+R34
+!s107 /home/nihahn/projects/generate_sim_nik/single_port_buffer_byte_en.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/single_port_buffer_byte_en.sv|
+!i113 0
+R10
+R2
+vsm_compression_router
+R3
+R14
+!i10b 1
+!s100 9F`FmaaB[em=fHKU9IBb=1
+IkETn@cODE<JzKM=PPci?U2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/compression_router.sv
+F/home/nihahn/projects/generate_sim_nik/compression_router.sv
+!i122 75
+Z67 L0 11 60
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 /home/nihahn/projects/generate_sim_nik/compression_router.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compression_router.sv|
+!i113 0
+R10
+R2
+vsm_compression_routing_mesh
+R3
+R19
+!i10b 1
+!s100 `9Z_gYHgiKI4^2UCX8PGd3
+IbMknKIed2T;`b_?OTe?@[2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv
+F/home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv
+!i122 76
+Z68 L0 11 148
+R7
+R8
+r1
+!s85 0
+31
+R20
+!s107 /home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compression_routing_mesh.sv|
+!i113 0
+R10
+R2
+vsparse_conv_computation_control
+R3
+R11
+Z69 !s110 1716897936
+!i10b 1
+!s100 g9ROLDk1aQiiPaCDH1z>Y1
+I87h:m^d=ZOSm?Y1`H<hWW3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/sparse_computation_control.sv
+F/home/nihahn/projects/generate_sim_nik/sparse_computation_control.sv
+!i122 96
+L0 11 492
+R7
+R8
+r1
+!s85 0
+31
+Z70 !s108 1716897936.000000
+!s107 /home/nihahn/projects/generate_sim_nik/sparse_computation_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/sparse_computation_control.sv|
+!i113 0
+R10
+R2
+vsparse_conv_data_setup
+R3
+R11
+R69
+!i10b 1
+!s100 ko>Wd0T?8ecUULAjlijXS3
+IF3cKPeP5KU=[UzAZM_@X03
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/sparse_conv_data_setup.sv
+F/home/nihahn/projects/generate_sim_nik/sparse_conv_data_setup.sv
+!i122 97
+L0 14 595
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/sparse_conv_data_setup.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/sparse_conv_data_setup.sv|
+!i113 0
+R10
+R2
+vstream_reader_control
+R3
+R11
+R69
+!i10b 1
+!s100 D^7FX_^>J7]F5=mH2D2mZ2
+IX[X9@2`5h:CKQK;MLe_AN2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/stream_reader_control.sv
+F/home/nihahn/projects/generate_sim_nik/stream_reader_control.sv
+!i122 98
+R67
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/stream_reader_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/stream_reader_control.sv|
+!i113 0
+R10
+R2
+vstream_writer_control
+R3
+R11
+R69
+!i10b 1
+!s100 j`2NLVG391j2SzbUPG=dJ0
+I7n;z[M7REAmhHm9W<`MEK3
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/stream_writer_control.sv
+F/home/nihahn/projects/generate_sim_nik/stream_writer_control.sv
+!i122 99
+L0 11 179
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/stream_writer_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/stream_writer_control.sv|
+!i113 0
+R10
+R2
+Ystreamed_data_if
+R3
+R19
+!i10b 1
+!s100 J2L=0F4TMfF@5HR]YYbhc3
+ILhC:ZKBlA:zjX>>JW7SVm0
+S1
+R1
+R17
+R21
+R22
+!i122 83
+R6
+R7
+R8
+r1
+!s85 0
+31
+R20
+R23
+R24
+!i113 0
+R10
+R2
+Xtest_dense_layer_package
+R3
+R11
+R42
+R69
+!i10b 1
+!s100 U@oM?cn:Bln3Y8?[ITa7_0
+Imfd86hVaR8T8>ko6CD;o`2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/test_dense_layer_package.sv
+F/home/nihahn/projects/generate_sim_nik/test_dense_layer_package.sv
+!i122 100
+Z71 L0 4 0
+Vmfd86hVaR8T8>ko6CD;o`2
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/test_dense_layer_package.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/test_dense_layer_package.sv|
+!i113 0
+R10
+R2
+Xtest_NN_package
+R3
+R11
+R42
+R48
+!i10b 1
+!s100 e2dZIo_g48i94eKa;Vl^l0
+IYKLiFhl?oNZideHn0B?A83
+S1
+R1
+w1716893140
+8/home/nihahn/projects/generate_sim_nik/compiled_NN/test_NN_package.sv
+F/home/nihahn/projects/generate_sim_nik/compiled_NN/test_NN_package.sv
+!i122 107
+R71
+VYKLiFhl?oNZideHn0B?A83
+R8
+r1
+!s85 0
+31
+R51
+!s107 /home/nihahn/projects/generate_sim_nik/compiled_NN/test_NN_package.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/compiled_NN/test_NN_package.sv|
+!i113 0
+R10
+R2
+ntest_@n@n_package
+Xtest_package
+!s115 s_axi_lite_bus
+!s115 s_axi_bus
+R3
+R11
+R69
+!i10b 1
+!s100 _9EL4[@G?DAbzKb^:YANd2
+Ijoi^CD0WcDg=oSVE:h_li3
+S1
+R1
+w1716894312
+8/home/nihahn/projects/generate_sim_nik/test_package.sv
+F/home/nihahn/projects/generate_sim_nik/test_package.sv
+!i122 101
+R37
+Vjoi^CD0WcDg=oSVE:h_li3
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/test_package.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/test_package.sv|
+!i113 0
+R10
+R2
+Yweight_buffer_control_if
+R3
+R69
+!i10b 1
+!s100 izF=f6:mU_5WXI@K`7mP^0
+ITFTT_O3Aeb7YYW<W2^:aI2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/weight_buffer_control_interface.sv
+F/home/nihahn/projects/generate_sim_nik/weight_buffer_control_interface.sv
+!i122 102
+R6
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/weight_buffer_control_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/weight_buffer_control_interface.sv|
+!i113 0
+R10
+R2
+vweight_buffer_write_control
+R3
+R11
+R69
+!i10b 1
+!s100 L1YM_XYcW<;Mjd0Q6<;Qk3
+Il3UnS`zIiRik52QoW@JIX2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv
+F/home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv
+!i122 103
+R68
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv|
+!i113 0
+R10
+R2
+vweight_memory
+R3
+R11
+R69
+!i10b 1
+!s100 ;RP=h[zPCRWBNdBd:lJE`0
+IB7N^cHVXJo;b?l39642nC2
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/weight_memory.sv
+F/home/nihahn/projects/generate_sim_nik/weight_memory.sv
+!i122 104
+R13
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/weight_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/weight_memory.sv|
+!i113 0
+R10
+R2
+Yweight_memory_compute_address_control_if
+R3
+R48
+!i10b 1
+!s100 ]l>bj>dG0:1_@NTSO63K42
+I>kh^UFe4mQgb9`7F]nVM33
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/weight_memory_compute_address_control_if.sv
+F/home/nihahn/projects/generate_sim_nik/weight_memory_compute_address_control_if.sv
+!i122 105
+R6
+R7
+R8
+r1
+!s85 0
+31
+R70
+!s107 /home/nihahn/projects/generate_sim_nik/weight_memory_compute_address_control_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/weight_memory_compute_address_control_if.sv|
+!i113 0
+R10
+R2
+vweight_row_buffer
+R3
+R48
+!i10b 1
+!s100 c239E6nfzkI]5@=<f^S[n3
+IcOY:c?TC?DL4BiFE8dUM30
+S1
+R1
+R17
+8/home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv
+F/home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv
+!i122 106
+L0 11 80
+R7
+R8
+r1
+!s85 0
+31
+R51
+!s107 /home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nihahn/projects/generate_sim_nik/weight_row_buffer.sv|
+!i113 0
+R10
+R2

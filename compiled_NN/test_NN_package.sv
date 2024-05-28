@@ -7,7 +7,7 @@ import NVP_v1_constants::*;
 import test_package::*;
 
     localparam SDK_FILE_NAME                = "test_neural_net";
-    localparam BASE_DIRECTORY               = "/home/hasan/NVP_v1/tb/compiled_NN/";
+    localparam BASE_DIRECTORY               = "/home/nihahn/projects/generate_sim_nik/compiled_NN/";
     localparam AXI_BYTE_ACCESS_BITS         = 3;
     localparam OUTPUT_LINE_0_START_ADDRESS  = 3072;
     localparam OUTPUT_LINE_1_START_ADDRESS  = 4096;

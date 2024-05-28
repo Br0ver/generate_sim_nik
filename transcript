@@ -1,0 +1,798 @@
+# //  Questa Sim-64
+# //  Version 2021.3_2 linux_x86_64 Sep 10 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project 01
+vsim -voptargs=+acc work.NVP_v1_top_tb
+# vsim -voptargs="+acc" work.NVP_v1_top_tb 
+# Start time: 14:10:27 on May 28,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.s_axi_bus(fast)
+# Loading work.NVP_v1_constants(fast)
+# Loading work.s_axi_lite_bus(fast)
+# Loading work.test_package(fast)
+# Loading work.test_NN_package(fast)
+# Loading work.NVP_v1_top_tb_sv_unit(fast)
+# Loading work.NVP_v1_top_tb(fast)
+# Loading work.s_axi_bus(fast__2)
+# Loading work.s_axi_lite_bus(fast__2)
+# Loading work.NVP_v1_top_sv_unit(fast)
+# Loading work.NVP_v1_top(fast)
+# Loading work.register_file_if(fast__1)
+# Loading work.register_file_if(fast__2)
+# Loading work.control_and_stream_decoder_if(fast__1)
+# Loading work.streamed_data_if(fast__1)
+# Loading work.decoded_data_if(fast__1)
+# Loading work.compute_core_data_if(fast__1)
+# Loading work.computation_control_if(fast__1)
+# Loading work.control_unit(fast)
+# Loading work.control_memory(fast)
+# Loading work.axi_register_file_fsm(fast)
+# Loading work.execution_control(fast)
+# Loading work.on_chip_memory(fast)
+# Loading work.activation_buffer_control_if(fast__1)
+# Loading work.weight_buffer_control_if(fast__1)
+# Loading work.activation_memory(fast)
+# Loading work.banked_line_buffer(fast)
+# Loading work.bram_sdp(fast)
+# Loading work.activation_buffer_read_control(fast)
+# Loading work.s_axi_bus(fast__4)
+# Loading work.axi_memory_fsm(fast)
+# Loading work.stream_reader_control(fast)
+# Loading work.activation_buffer_write_control(fast)
+# Loading work.weight_memory(fast)
+# Loading work.weight_buffer_write_control(fast)
+# Loading work.banked_line_buffer(fast__1)
+# Loading work.bram_sdp(fast__1)
+# Loading work.compressed_stream_decoder_wrapper(fast)
+# Loading work.compressed_stream_decoder(fast)
+# Loading work.compressed_stream_decoder_fsm(fast)
+# Loading work.pre_compute_scheduler(fast)
+# Loading work.local_reg_file_latching(fast)
+# Loading work.pw_conv_data_setup(fast)
+# Loading work.axis_fifo_v2(fast)
+# Loading work.sparse_conv_data_setup(fast)
+# Loading work.axis_fifo_v2(fast__1)
+# Loading work.axis_fifo_v2(fast__2)
+# Loading work.computation_control(fast)
+# Loading work.sparse_conv_computation_control(fast)
+# Loading work.delay_unit(fast)
+# Loading work.dense_conv_computation_control(fast)
+# Loading work.compute_unit_sv_unit(fast)
+# Loading work.compute_unit(fast)
+# Loading work.pe_row_sv_unit(fast)
+# Loading work.pe_row(fast)
+# Loading work.pe_array(fast)
+# Loading work.pe(fast)
+# Loading work.post_processing(fast)
+# Loading work.local_reg_file_latching(fast__1)
+# Loading work.axis_fifo_v3(fast)
+# Loading work.routing_tree_sv_unit(fast)
+# Loading work.routing_tree(fast)
+# Loading work.sequential_routing_switch(fast)
+# Loading work.sequential_routing_switch(fast__1)
+# Loading work.sequential_routing_switch(fast__2)
+# Loading work.sequential_routing_switch(fast__3)
+# Loading work.delay_unit(fast__1)
+# Loading work.bram_sdp(fast__2)
+# Loading work.axis_fifo_v4(fast)
+# Loading work.output_stage(fast)
+# Loading work.sm_compression_routing_mesh(fast)
+# Loading work.sm_compression_router(fast)
+# Loading work.sm_compression_router(fast__1)
+# Loading work.sm_compression_router(fast__2)
+# Loading work.sm_compression_router(fast__3)
+# Loading work.sm_compression_router(fast__4)
+# Loading work.sm_compression_router(fast__5)
+# Loading work.sm_compression_router(fast__6)
+# Loading work.sm_compression_router(fast__7)
+# Loading work.commit_stage(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (15) for port 'o_address'. The port definition is at: /home/nihahn/projects/generate_sim_nik/axi_memory_fsm.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /NVP_v1_top_tb/dut/memory_i/weight_memory_unit/weight_buffer_write_control_unit/axi_write_bridge File: /home/nihahn/projects/generate_sim_nik/weight_buffer_write_control.sv Line: 84
+run -all
+# data_bus, AXI_BUS_BIT_WIDTH=64, AXI_BUS_ADDRESS_WIDTH=16
+# weight_bus, WEIGHT_AXI_BUS_BIT_WIDTH=64, WEIGHT_AXI_BUS_ADDRESS_WIDTH=16
+# control_bus, CONTROL_AXI_DATA_WIDTH=32, CONTROL_AXI_ADDR_WIDTH=6
+# /home/nihahn/projects/generate_sim_nik/compiled_NN/test_neural_net.h
+# reading input.
+# finished reading input.
+# exporting activations
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# exporting weights
+# execute layer_0
+# NUMBER_OF_OUTPUT_ROWS 64
+# output_row_i_number_of_entries[0] 48
+# output_row_i_number_of_entries[1] 48
+# output_row_i_number_of_entries[2] 48
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# Output row 32 : matched
+# Output row 33 : matched
+# Output row 34 : matched
+# Output row 35 : matched
+# Output row 36 : matched
+# Output row 37 : matched
+# Output row 38 : matched
+# Output row 39 : matched
+# Output row 40 : matched
+# Output row 41 : matched
+# Output row 42 : matched
+# Output row 43 : matched
+# Output row 44 : matched
+# Output row 45 : matched
+# Output row 46 : matched
+# Output row 47 : matched
+# Output row 48 : matched
+# Output row 49 : matched
+# Output row 50 : matched
+# Output row 51 : matched
+# Output row 52 : matched
+# Output row 53 : matched
+# Output row 54 : matched
+# Output row 55 : matched
+# Output row 56 : matched
+# Output row 57 : matched
+# Output row 58 : matched
+# Output row 59 : matched
+# Output row 60 : matched
+# Output row 61 : matched
+# Output row 62 : matched
+# Output row 63 : matched
+# execute layer_1
+# NUMBER_OF_OUTPUT_ROWS 64
+# output_row_i_number_of_entries[0] 57
+# output_row_i_number_of_entries[1] 65
+# output_row_i_number_of_entries[2] 65
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# Output row 32 : matched
+# Output row 33 : matched
+# Output row 34 : matched
+# Output row 35 : matched
+# Output row 36 : matched
+# Output row 37 : matched
+# Output row 38 : matched
+# Output row 39 : matched
+# Output row 40 : matched
+# Output row 41 : matched
+# Output row 42 : matched
+# Output row 43 : matched
+# Output row 44 : matched
+# Output row 45 : matched
+# Output row 46 : matched
+# Output row 47 : matched
+# Output row 48 : matched
+# Output row 49 : matched
+# Output row 50 : matched
+# Output row 51 : matched
+# Output row 52 : matched
+# Output row 53 : matched
+# Output row 54 : matched
+# Output row 55 : matched
+# Output row 56 : matched
+# Output row 57 : matched
+# Output row 58 : matched
+# Output row 59 : matched
+# Output row 60 : matched
+# Output row 61 : matched
+# Output row 62 : matched
+# Output row 63 : matched
+# execute layer_2
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 80
+# output_row_i_number_of_entries[1] 77
+# output_row_i_number_of_entries[2] 77
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_3
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 85
+# output_row_i_number_of_entries[1] 84
+# output_row_i_number_of_entries[2] 84
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_4
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 85
+# output_row_i_number_of_entries[1] 77
+# output_row_i_number_of_entries[2] 77
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_5
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 66
+# output_row_i_number_of_entries[1] 62
+# output_row_i_number_of_entries[2] 58
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_6
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 82
+# output_row_i_number_of_entries[1] 85
+# output_row_i_number_of_entries[2] 85
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_7
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 78
+# output_row_i_number_of_entries[1] 80
+# output_row_i_number_of_entries[2] 78
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_8
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 77
+# output_row_i_number_of_entries[1] 76
+# output_row_i_number_of_entries[2] 77
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_9
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 88
+# output_row_i_number_of_entries[1] 84
+# output_row_i_number_of_entries[2] 82
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_10
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 68
+# output_row_i_number_of_entries[1] 70
+# output_row_i_number_of_entries[2] 70
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_11
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 98
+# output_row_i_number_of_entries[1] 87
+# output_row_i_number_of_entries[2] 82
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_12
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 58
+# output_row_i_number_of_entries[1] 52
+# output_row_i_number_of_entries[2] 51
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : matched
+# Output row 3 : matched
+# Output row 4 : matched
+# Output row 5 : matched
+# Output row 6 : matched
+# Output row 7 : matched
+# Output row 8 : matched
+# Output row 9 : matched
+# Output row 10 : matched
+# Output row 11 : matched
+# Output row 12 : matched
+# Output row 13 : matched
+# Output row 14 : matched
+# Output row 15 : matched
+# Output row 16 : matched
+# Output row 17 : matched
+# Output row 18 : matched
+# Output row 19 : matched
+# Output row 20 : matched
+# Output row 21 : matched
+# Output row 22 : matched
+# Output row 23 : matched
+# Output row 24 : matched
+# Output row 25 : matched
+# Output row 26 : matched
+# Output row 27 : matched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# execute layer_13
+# NUMBER_OF_OUTPUT_ROWS 32
+# output_row_i_number_of_entries[0] 8
+# output_row_i_number_of_entries[1] 8
+# output_row_i_number_of_entries[2] 8
+# WARNING: output_row_2 value 8099808e8084807b did not match ground truth value 8099808e80848080 at index:           2
+# WARNING: output_row_2 value 8077807c80858091 did not match ground truth value 8080808080858091 at index:           3
+# WARNING: output_row_3 value 8098808780818075 did not match ground truth value 8098808780818080 at index:           2
+# WARNING: output_row_3 value 806a806d8071807e did not match ground truth value 8080808080808080 at index:           3
+# WARNING: output_row_4 value 8086807780688069 did not match ground truth value 8086808080808080 at index:           3
+# WARNING: output_row_4 value 807d8092809f80a1 did not match ground truth value 80808092809f80a1 at index:           4
+# WARNING: output_row_5 value 80db80c080828069 did not match ground truth value 80db80c080828080 at index:           3
+# WARNING: output_row_5 value 80718087809980a0 did not match ground truth value 80808087809980a0 at index:           4
+# WARNING: output_row_6 value 0580f880a3807180 did not match ground truth value 0580f880a3808080 at index:           3
+# WARNING: output_row_6 value 6a807a808d809980 did not match ground truth value 808080808d809980 at index:           4
+# WARNING: output_row_7 value 800380f780968063 did not match ground truth value 800380f780968080 at index:           3
+# WARNING: output_row_7 value 8058806280738080 did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_8 value 807b806b808580c1 did not match ground truth value 80808080808580c1 at index:           2
+# WARNING: output_row_8 value 800480e5807f8048 did not match ground truth value 800480e580808080 at index:           3
+# WARNING: output_row_8 value 8041804980548060 did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_8 value 806a807780858094 did not match ground truth value 8080808080858094 at index:           5
+# WARNING: output_row_9 value 80788062806c80bd did not match ground truth value 80808080808080bd at index:           2
+# WARNING: output_row_9 value 800480cb8075805a did not match ground truth value 800480cb80808080 at index:           3
+# WARNING: output_row_9 value 8060806080658068 did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_9 value 8063805d80648078 did not match ground truth value 8080808080808080 at index:           5
+# WARNING: output_row_10 value 808d807f808880d9 did not match ground truth value 808d8080808880d9 at index:           2
+# WARNING: output_row_10 value 968073805c805d80 did not match ground truth value 9680808080808080 at index:           5
+# WARNING: output_row_10 value 73808c809d80a280 did not match ground truth value 80808c809d80a280 at index:           6
+# WARNING: output_row_11 value 80f480c78084805e did not match ground truth value 80f480c780848080 at index:           5
+# WARNING: output_row_11 value 8062807b8093809f did not match ground truth value 808080808093809f at index:           6
+# WARNING: output_row_12 value 00800280cc807c80 did not match ground truth value 00800280cc808080 at index:           5
+# WARNING: output_row_12 value 61806d8088809a80 did not match ground truth value 8080808088809a80 at index:           6
+# WARNING: output_row_13 value 808f807e80af8008 did not match ground truth value 808f808080af8008 at index:           2
+# WARNING: output_row_13 value 806e8067807d8095 did not match ground truth value 8080808080808095 at index:           6
+# WARNING: output_row_14 value 8089807b80b78008 did not match ground truth value 8089808080b78008 at index:           2
+# WARNING: output_row_14 value 8065805a8062807a did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_14 value 807c80678077808f did not match ground truth value 808080808080808f at index:           6
+# WARNING: output_row_15 value 80c380838071806a did not match ground truth value 80c3808380808080 at index:           3
+# WARNING: output_row_15 value 805d8054804c804f did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_15 value 807880c1800a80d5 did not match ground truth value 808080c1800a80d5 at index:           5
+# WARNING: output_row_15 value 8086806a8076808c did not match ground truth value 808680808080808c at index:           6
+# WARNING: output_row_16 value 809f8065805d8064 did not match ground truth value 809f808080808080 at index:           3
+# WARNING: output_row_16 value 806d80708067805b did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_16 value 806680ac800980dd did not match ground truth value 808080ac800980dd at index:           5
+# WARNING: output_row_16 value 8088806c8078808b did not match ground truth value 808880808080808b at index:           6
+# WARNING: output_row_17 value 8087805f805f806d did not match ground truth value 8087808080808080 at index:           3
+# WARNING: output_row_17 value 807b807e80768069 did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_17 value 806e80b4800680ce did not match ground truth value 808080b4800680ce at index:           5
+# WARNING: output_row_17 value 8080806b8079808b did not match ground truth value 808080808080808b at index:           6
+# WARNING: output_row_18 value 80758056805c8071 did not match ground truth value 8080808080808080 at index:           3
+# WARNING: output_row_18 value 807e807c8071806d did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_18 value 80758069807b808d did not match ground truth value 808080808080808d at index:           6
+# WARNING: output_row_19 value 809e809680838077 did not match ground truth value 809e809680838080 at index:           1
+# WARNING: output_row_19 value 807780ba800780c3 did not match ground truth value 808080ba800780c3 at index:           2
+# WARNING: output_row_19 value 80658043804a805b did not match ground truth value 8080808080808080 at index:           3
+# WARNING: output_row_19 value 80668067806a8079 did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_19 value 806e806c807d8090 did not match ground truth value 8080808080808090 at index:           6
+# WARNING: output_row_20 value 809b80858070806a did not match ground truth value 809b808580808080 at index:           1
+# WARNING: output_row_20 value 807b80c7800580ca did not match ground truth value 808080c7800580ca at index:           2
+# WARNING: output_row_20 value 8070803f8035803e did not match ground truth value 8080808080808080 at index:           3
+# WARNING: output_row_20 value 804a805d807a8099 did not match ground truth value 8080808080808099 at index:           4
+# WARNING: output_row_20 value 806c807180828094 did not match ground truth value 8080808080828094 at index:           6
+# WARNING: output_row_21 value 80a4806e80538051 did not match ground truth value 80a4808080808080 at index:           3
+# WARNING: output_row_21 value 8061807d809980cd did not match ground truth value 80808080809980cd at index:           4
+# WARNING: output_row_21 value 80fd80f780af807b did not match ground truth value 80fd80f780af8080 at index:           5
+# WARNING: output_row_21 value 806f807980898098 did not match ground truth value 8080808080898098 at index:           6
+# WARNING: output_row_22 value 80fb80c9808c8074 did not match ground truth value 80fb80c9808c8080 at index:           5
+# WARNING: output_row_22 value 807480818091809b did not match ground truth value 808080818091809b at index:           6
+# WARNING: output_row_23 value 807a8075807d808b did not match ground truth value 808080808080808b at index:           5
+# WARNING: output_row_24 value 89807a8078807d80 did not match ground truth value 8980808080808080 at index:           5
+# WARNING: output_row_25 value 80828079806f8075 did not match ground truth value 8082808080808080 at index:           2
+# WARNING: output_row_25 value 809e808d807f8075 did not match ground truth value 809e808d80808080 at index:           4
+# WARNING: output_row_25 value 80748077807e8089 did not match ground truth value 8080808080808089 at index:           5
+# WARNING: output_row_26 value 80888073806e8071 did not match ground truth value 8088808080808080 at index:           1
+# WARNING: output_row_26 value 806f8069805d8055 did not match ground truth value 8080808080808080 at index:           2
+# WARNING: output_row_26 value 805a8064806b806c did not match ground truth value 8080808080808080 at index:           3
+# WARNING: output_row_26 value 806d806d806c806f did not match ground truth value 8080808080808080 at index:           4
+# WARNING: output_row_26 value 80788081808c8096 did not match ground truth value 80808081808c8096 at index:           5
+# WARNING: output_row_27 value 809380898083807e did not match ground truth value 8093808980838080 at index:           1
+# WARNING: output_row_27 value 807c807d807a8075 did not match ground truth value 8080808080808080 at index:           2
+# WARNING: output_row_27 value 806e806680628063 did not match ground truth value 8080808080808080 at index:           3
+# WARNING: output_row_27 value 8067806e8076807f did not match ground truth value 8080808080808080 at index:           4
+# Output row 0 : matched
+# Output row 1 : matched
+# Output row 2 : mismatched
+# Output row 3 : mismatched
+# Output row 4 : mismatched
+# Output row 5 : mismatched
+# Output row 6 : mismatched
+# Output row 7 : mismatched
+# Output row 8 : mismatched
+# Output row 9 : mismatched
+# Output row 10 : mismatched
+# Output row 11 : mismatched
+# Output row 12 : mismatched
+# Output row 13 : mismatched
+# Output row 14 : mismatched
+# Output row 15 : mismatched
+# Output row 16 : mismatched
+# Output row 17 : mismatched
+# Output row 18 : mismatched
+# Output row 19 : mismatched
+# Output row 20 : mismatched
+# Output row 21 : mismatched
+# Output row 22 : mismatched
+# Output row 23 : mismatched
+# Output row 24 : mismatched
+# Output row 25 : mismatched
+# Output row 26 : mismatched
+# Output row 27 : mismatched
+# Output row 28 : matched
+# Output row 29 : matched
+# Output row 30 : matched
+# Output row 31 : matched
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# exporting outupt activations
+# finished simulation.

@@ -346,7 +346,6 @@ package test_package;
 						.data(axi_buffer),
 						.length(j-1),
 						.start_address(start_address+address), // Addresses bytes
-						
 						.AXI_ACLK   (memory_bus.S_AXI_ACLK),  
 						.AXI_AWID   (memory_bus.S_AXI_AWID),
 						.AXI_AWADDR (memory_bus.S_AXI_AWADDR),
